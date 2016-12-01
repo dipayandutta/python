@@ -8,7 +8,7 @@ import random
 magic_number = random.randrange(1,10,1)
 
 input_user = input("Enter number")
-check = True 
+#check = True 
 while(magic_number != input_user):
     if (magic_number <= input_user):
         print "To Small"
